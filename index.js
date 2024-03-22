@@ -10,16 +10,26 @@ let mypet = pet.toString();
 console.log(mypet);
 
 var item = [-5,9,5,3,2,-3,6,8,4,1];
-console.log(arr3.sort(function(a, b){return a -b}));
+item.sort(function(a,b){return a-b})
 console.log(item);
 
 
 let arr = ("boy","man","girl","school","girl","woman");
 function filterArray(arr){
-    return arr. filter((arr,
-        index arr) => arr.indexOf(item)
-}
-console.log(filterArray(arr))
+    return arr. filter((item,
+        index)=> arr.indexOf(item)===index);
+
+    }
+    console.log(filterArray(arr));
+    let  basic=["shelter","clothing","food","education"];
+    let needs=(basic.includes("food"));
+    if(basic==true){
+        console.log("food")
+    }else{
+        console.log("the search word was not found")
+    }
+    let violet="rnew"
+    console.log(split,violet.split());
 
 
 
@@ -30,8 +40,5 @@ console.log(filterArray(arr))
 
 
 
-let word = "renniw";
-console.log("split", word.split(1));
 
 
-let prineeds=()
